@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #2c2c2c;;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #e63946;
+}
+
+.profile-picture {
+    width: 220px;
+    height: 220px;
+    margin-top: 12%;
+    border-radius: 50%;
+    border: 5px solid grey;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 5px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    
+    box-shadow: 0 0 15px rgb(232, 78, 78);
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px green;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #d04c55;
+}
+
+#skills{color: #d21222;}
