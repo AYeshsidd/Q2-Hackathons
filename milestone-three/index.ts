@@ -1,7 +1,7 @@
 const submit = document.getElementById('generate') as HTMLFormElement;
 const display = document.getElementById('form_display') as HTMLDivElement;
 
-submit.addEventListener('submit',(event:Event)=>{
+submit.addEventListener('click',(event:Event)=>{
 
     event.preventDefault();
 
@@ -16,23 +16,17 @@ submit.addEventListener('submit',(event:Event)=>{
    
     
 
-const display_Form = `<h2><b>Your-Resume</b></h2>\n\
-<br>\n\
-<h3>Personal Information</h3>\n\
-<ul>\n\
-    <li><p><b>Name:</b>" + name + "</p></li>\n\
-    <li><p><b>Email:</b>" + email + "</p></li>\n\
-    <li><p><b>Phone:</b>" + number + "</p></li>\n\
-    <li><p><b>Socials:</b>" + social + "</p></ul></li>\n\
-<br>\n\
-<h3>Education</h3>\n\
-<p>" + education + "</p>\n\
-<br>\n\
-<h3>Experience</h3>\n\
-<p>" + experience + "</p>\n\
-<br>\n\
-<h3>Skills</h3>\n\
-<p>" + skills + "</p>"`
+const display_Form = `
+<h2 style="color: rgb(66, 132, 187);"><b>YOUR RESUME:-</b></h2>
+        <p><b>Name:</b> ${name}</p>
+        <p><b>Gender:</b> ${gender}</p>
+        <p><b>Email:</b> ${email}</p>
+        <p><b>Mobile Number:</b> ${number}</p>
+        <p><b>Qualification:</b> ${education}</p>
+        <p><b>Skills:</b> ${skills}</p>
+        <p><b>Experience:</b> ${experience}</p>
+        <p><b>Date of Submission:</b> ${time}</p>
+    `;
 
     if(display){
         display.innerHTML=display_Form
