@@ -1,10 +1,12 @@
 .container {
     background: white;
-    width: 70%;
-    max-width: 700px;
+    /* width: 70%;
+    max-width: 700px; */
     padding: 25px 40px 10px 40px;
     box-shadow: 0px 0px 20px ;
     margin: 0;
+    max-width: 100%;
+    
     
 }
 
@@ -14,12 +16,15 @@ h1{
 
 
 body {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    padding-top: 50px;
+    padding-left: 300px;
+    /* changed padding so display be in little center */
     background: linear-gradient(115deg, #56d8e4 12%, #9f01ea 80%);
-
+    max-width: 50%;
+    /* max width takai pora page per nah phel jai form */
     height: 100vh;
     margin: 0;
 }
@@ -58,8 +63,6 @@ label {
 }
 
 button{
-
-
     display: block;
     width: 40%;
     color: whitesmoke;
@@ -70,17 +73,25 @@ button{
     font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
-    
- 
- 
- 
- 
- 
     background: linear-gradient(115deg, #56d8e4 10%, #a812ee 80%);
-    
-    
     cursor: pointer;
 }
 
 
+#form_display {
+    background-color: #eef1f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    
 
+}
+
+#form_display h2 {
+    color: #333;
+}
+
+#form_display {
+    font-size: 18px;
+}
