@@ -25,14 +25,14 @@ submit.addEventListener('click',(event:Event)=>{
 
 const display_Form = `
 <h2 style="color: rgb(66, 132, 187);"><b>YOUR RESUME:-</b></h2>
-        <p><b>Name:</b><span contenditable = "true"> ${name}</p>
-        <p><b>Gender:</b><span contenditable = "true"> ${gender}</p>
-        <p><b>Email:</b><span contenditable = "true"> ${email}</p>
-        <p><b>Mobile Number:</b><span contenditable = "true"> ${number}</p>
-        <p><b>Qualification:</b><span contenditable = "true"> ${education}</p>
+        <p><b>Name:</b><span contenteditable = "true"> ${name}</p>
+        <p><b>Gender:</b><span contenteditable = "true"> ${gender}</p>
+        <p><b>Email:</b><span contenteditable = "true"> ${email}</p>
+        <p><b>Mobile Number:</b><span contenteditable = "true"> ${number}</p>
+        <p><b>Qualification:</b><span contenteditable = "true"> ${education}</p>
         <p><b>Skills:</b><span contenditable = "true"> ${skills}</p>
-        <p><b>Experience:</b><span contenditable = "true"> ${experience}</p>
-        <p><b>Date of Submission:</b><span contenditable = "true"> ${time}</p>
+        <p><b>Experience:</b><span contenteditable = "true"> ${experience}</p>
+        <p><b>Date of Submission:</b><span contenteditable = "true"> ${time}</p>
     `;
 
     if(display){
