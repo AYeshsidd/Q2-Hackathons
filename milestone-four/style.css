@@ -1,0 +1,99 @@
+.container {
+    background: white;
+    /* width: 70%;
+    max-width: 700px; */
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 20px ;
+    margin: 0;
+    max-width: 100%;
+    
+    
+}
+
+h1{
+    background: linear-gradient(115deg, #4fd5e1 12%, #9f01ea 80%);
+}
+
+
+body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 300px;
+    /* changed padding so display be in little center */
+    background: lightsteelblue;
+    max-width: 50%;
+    /* max width takai pora page per nah phel jai form */
+    height: 100vh;
+    margin: 0;
+}
+
+input{
+
+    margin-top: 9px;
+    padding: 8px;
+    width: 30%;
+    
+  
+}
+
+fieldset{
+    background-color: #f9f9f9;
+    border-color: #cccccc;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    
+    
+}
+
+textarea{
+    border-radius: 4px;
+    padding: 15px;
+    width: 40%;
+    margin-top: 7px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+button{
+    display: block;
+    width: 40%;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    background: linear-gradient(115deg, #56d8e4 10%, #a812ee 80%);
+    cursor: pointer;
+}
+
+
+#form_display {
+
+    background-color: rgb(229, 143, 143);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    
+
+}
+/* change all . to # */
+#form_display h2 {
+    color: #333;
+}
+
+#form_display {
+    font-size: 18px;
+  /*  here was in line */
+}
