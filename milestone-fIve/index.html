@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic & sharable Resume</title>
+
+ <link rel="stylesheet" href ="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    
+    <form id="MYform">
+        
+        <fieldset>
+            
+        <center><h1>Digital & Sharable Resume Builder</h1></center>
+        
+        <label ><b>UserName:- </b></label>
+        <input id="Username" type="text" placeholder="Enter your Username "> 
+
+        
+        <label ><b>Name:- </b></label>
+        <input id="name" type="text" placeholder="write your Name "> 
+
+        <label> <b>Gender:-</b></label>
+        <input id="gender" type="text"placeholder="Not Necessary">
+
+ 
+
+        <label><b> Email:-</b> </label>
+        <input id="mail" type="email"placeholder="write your e-mail here" required>
+
+        
+        <label><b>Mobile Num:-</b> </label>
+        <input id="phone" type="phone"  placeholder="Active phone number" required>
+    
+    </fieldset>
+
+<fieldset>
+
+         
+        <label> <b>Qualification:-</b></label>
+        
+       <textarea id ="education" rows="1"  placeholder="Mention your highest Qualification"required></textarea>
+
+        <label><b>Skills:-</b></label>
+       
+       <textarea id="skill" rows="2"  placeholder="Mention your top 5 skills" required></textarea> 
+    
+    
+           
+       <label><b>Experience:-</b></label>
+       <textarea id="exp" rows="2"  placeholder= "List your work experience" required></textarea> 
+    
+    </fieldset>
+    
+    
+    
+    <div class="submission-container">
+        <label for="submissionDate">Date of submission:</label>
+        
+        <input type="date" id="submissiondate" required>
+        
+    </div>
+     <button type="submit" id="generate"><b>Submit & Generate</b></button> 
+</div>
+</form>
+ 
+<br><br>
+
+    <div id = "form_display" contenteditable="true">
+        <p style="color: steelblue;"><b>Your Resume:</b></p>
+    </div>
+
+    <!-- MAKING LINK FOR SHARING -->
+
+    <div id="linking"></div>
+    <h2>Sharable link</h2>
+    <p>Click here to view and share your resume.</p>
+
+    <a href="#" id="share-link" target="_blank"></a>
+    <button id="as-pdf"><b>Download</b></button>
+    
+</body>
+
+<script src="index.js"></script>
+</html>
