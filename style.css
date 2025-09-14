@@ -1,0 +1,153 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #2c2c2c;;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #e63946;
+}
+
+.profile-picture {
+    width: 220px;
+    height: 210px;
+    margin-top: 12%;
+    border-radius: 50%;
+    border: 4px solid red;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 5px 0;
+    margin-bottom: 30px;
+    /* text-align: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0 20px rgb(34, 32, 32)
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px green;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    background-color:  palevioletred;
+    cursor: pointer;
+    padding: 7px;
+    margin-top: 18px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: wheat;
+}
+
+#skills{color: #d21222;}
+
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left-section {
+        width: 100%;
+        border-right: none;
+        border-bottom: 5px solid #e63946;
+    }
+
+    .right-section {
+        width: 100%;
+    }
+
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
