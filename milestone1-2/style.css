@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -34,11 +35,11 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 24px;
     margin: 5px 0;
     margin-bottom: 30px;
-    text-align: center;
-    font-family: Georgia, serif;
+    /* text-align: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 0 0 20px rgb(34, 32, 32)
 }
 
@@ -73,13 +74,77 @@ button {
     font-family: Arial, sans-serif;
     border-radius: 10px;
     box-shadow: 0 0 15px black;
+    background-color:  palevioletred;
     cursor: pointer;
-    margin-top: 10px;
+    padding: 7px;
+    margin-top: 18px;
     font-size: 18px;
 }
 
 button:hover {
-    background-color: #d04c55;
+    background-color: wheat;
 }
 
 #skills{color: #d21222;}
+
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left-section {
+        width: 100%;
+        border-right: none;
+        border-bottom: 5px solid #e63946;
+    }
+
+    .right-section {
+        width: 100%;
+    }
+
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
